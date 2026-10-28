@@ -1,0 +1,135 @@
+********* Start testing of Checks *********
+Config: Using QtTest library 6.8.3, Qt 6.8.3 (x86_64-little_endian-llp64 shared (dynamic) release build; by MSVC 2022), windows 10
+PASS   : Checks::initTestCase()
+QDEBUG : Checks::initialAndOneShot() [CREATE] ColorWidget, palette: 6
+QDEBUG : Checks::initialAndOneShot() [ONCE] Initial status
+QWARN  : Checks::initialAndOneShot() This plugin does not support propagateSizeHints()
+QDEBUG : Checks::initialAndOneShot() [DESTROY] MainWindow
+QDEBUG : Checks::initialAndOneShot() [DESTROY] ColorWidget
+PASS   : Checks::initialAndOneShot()
+QDEBUG : Checks::timerAndIntervals() [CREATE] ColorWidget, palette: 6
+QDEBUG : Checks::timerAndIntervals() [ONCE] Initial status
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 400
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 600
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 400
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 200
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 50
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 50
+QDEBUG : Checks::timerAndIntervals() [TIMER] start(), interval = 50
+QDEBUG : Checks::timerAndIntervals() [TIMER] timeout, mode = "Цикл" color = "#e67e22"
+QDEBUG : Checks::timerAndIntervals() [TIMER] stop()
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 250
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 450
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 650
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 850
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 1050
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 1250
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 1450
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 1650
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 1850
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 2050
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 2250
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 2450
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 2650
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 2850
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 3050
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 3250
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 3450
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 3650
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 3850
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 4050
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 4250
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 4450
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 4650
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 4850
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 5000
+QDEBUG : Checks::timerAndIntervals() [TIMER] interval -> 5000
+QDEBUG : Checks::timerAndIntervals() [DESTROY] MainWindow
+QDEBUG : Checks::timerAndIntervals() [DESTROY] ColorWidget
+PASS   : Checks::timerAndIntervals()
+QDEBUG : Checks::modesAndBlink() [CREATE] ColorWidget, palette: 6
+QDEBUG : Checks::modesAndBlink() [ONCE] Initial status
+QDEBUG : Checks::modesAndBlink() [TIMER] mode -> "Случайный" (reconnected timeout)
+QDEBUG : Checks::modesAndBlink() [TIMER] timeout, mode = "Случайный" color = "#e67e22"
+QDEBUG : Checks::modesAndBlink() [TIMER] mode -> "Мигание" (reconnected timeout)
+QDEBUG : Checks::modesAndBlink() [TIMER] timeout, mode = "Мигание" color = "#000000"
+QWARN  : Checks::modesAndBlink() This plugin does not support propagateSizeHints()
+QDEBUG : Checks::modesAndBlink() [TIMER] timeout, mode = "Мигание" color = "#e67e22"
+QDEBUG : Checks::modesAndBlink() [TIMER] timeout, mode = "Мигание" color = "#000000"
+QDEBUG : Checks::modesAndBlink() [TIMER] mode -> "Цикл" (reconnected timeout)
+QDEBUG : Checks::modesAndBlink() [DESTROY] MainWindow
+QDEBUG : Checks::modesAndBlink() [DESTROY] ColorWidget
+PASS   : Checks::modesAndBlink()
+QDEBUG : Checks::mouseAndReconnection() [CREATE] ColorWidget, palette: 6
+QDEBUG : Checks::mouseAndReconnection() [ONCE] Initial status
+QWARN  : Checks::mouseAndReconnection() This plugin does not support propagateSizeHints()
+QDEBUG : Checks::mouseAndReconnection() [MOUSE] Left click
+QDEBUG : Checks::mouseAndReconnection() [MOUSE] Right click
+QDEBUG : Checks::mouseAndReconnection() [CANVAS] Reconnected colorChanged, alternative = true
+QDEBUG : Checks::mouseAndReconnection() [MOUSE] Left click
+QDEBUG : Checks::mouseAndReconnection() [CANVAS] Reconnected colorChanged, alternative = false
+QDEBUG : Checks::mouseAndReconnection() [MOUSE] Right click
+QDEBUG : Checks::mouseAndReconnection() [DESTROY] MainWindow
+QDEBUG : Checks::mouseAndReconnection() [DESTROY] ColorWidget
+PASS   : Checks::mouseAndReconnection()
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [CREATE] ColorWidget, palette: 6
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [ONCE] Initial status
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [CREATE] PaletteButton "#30c806"
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [DYNAMIC] Connected "#30c806" total: 1
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [CREATE] PaletteButton "#4d28d3"
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [DYNAMIC] Connected "#4d28d3" total: 2
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [CREATE] PaletteButton "#8c2ff6"
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [DYNAMIC] Connected "#8c2ff6" total: 3
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [PALETTE] Added "#30c806" total: 7
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [DYNAMIC] Clicked colour button "#30c806"
+QWARN  : Checks::dynamicButtonsAndDisconnect() This plugin does not support propagateSizeHints()
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [DYNAMIC] Cleared palette, disconnected: 3
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [DESTROY] PaletteButton "#30c806"
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [DESTROY] PaletteButton "#4d28d3"
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [DESTROY] PaletteButton "#8c2ff6"
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [DYNAMIC] Cleared palette, disconnected: 0
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [CREATE] PaletteButton "#0de0b6"
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [DYNAMIC] Connected "#0de0b6" total: 1
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [DESTROY] MainWindow
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [DESTROY] ColorWidget
+QDEBUG : Checks::dynamicButtonsAndDisconnect() [DESTROY] PaletteButton "#0de0b6"
+PASS   : Checks::dynamicButtonsAndDisconnect()
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [CREATE] ColorWidget, palette: 6
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [ONCE] Initial status
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Случайный" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Мигание" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Цикл" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Случайный" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Мигание" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Цикл" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Случайный" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Мигание" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Цикл" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Случайный" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Мигание" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Цикл" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Случайный" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Мигание" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Цикл" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Случайный" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Мигание" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Цикл" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Случайный" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Мигание" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Цикл" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Случайный" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Мигание" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Цикл" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Случайный" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Мигание" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Цикл" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Случайный" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Мигание" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] mode -> "Цикл" (reconnected timeout)
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [TIMER] timeout, mode = "Цикл" color = "#e67e22"
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [DESTROY] MainWindow
+QDEBUG : Checks::noDuplicateTimeoutHandlers() [DESTROY] ColorWidget
+PASS   : Checks::noDuplicateTimeoutHandlers()
+PASS   : Checks::cleanupTestCase()
+Totals: 8 passed, 0 failed, 0 skipped, 0 blacklisted, 148ms
+********* Finished testing of Checks *********
